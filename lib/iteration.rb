@@ -12,7 +12,7 @@ def join_ingredients(src)
     sentenceArray.push("I love #{src[pairindex][0]} and #{src[pairindex][0]} on my pizza")
     pairindex += 1
   end  
-  
+  sentenceArray
 end
 
 def find_greater_pair(src)
