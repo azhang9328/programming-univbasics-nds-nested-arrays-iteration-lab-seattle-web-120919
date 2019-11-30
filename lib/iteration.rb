@@ -9,7 +9,7 @@ def join_ingredients(src)
   sentenceArray = []
   src.length.times do 
     pairindex = 0 
-    sentenceArray.push("I love #{src[pairindex][0]} and #{src[pairindex][0]} on my pizza")
+    sentenceArray.push("I love #{src[pairindex][0]} and #{src[pairindex][1]} on my pizza")
     pairindex += 1
   end  
   sentenceArray
