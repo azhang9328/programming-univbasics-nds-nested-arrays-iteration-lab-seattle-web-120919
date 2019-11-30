@@ -6,9 +6,10 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
+  sentenceArray = []
   src.length.times do 
     pairindex = 0 
-    puts "I love #{src[][0]} and #{src[][1]} on my pizza"
+    sentenceArray.push("I love #{src[pairindex][0]} and #{src[pairindex][0]} on my pizza")
     pairindex += 1
   end  
 end
